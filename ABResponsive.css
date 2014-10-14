@@ -1,0 +1,120 @@
+﻿
+
+@media (min-width:480px) and (max-width:769px){
+    .left-master{
+        box-shadow: 2px 3px 10px 0px #B9B9B9;
+    }
+
+    .right-master{
+        box-shadow: -2px 2px 10px 0px #B9B9B9;
+    }
+
+    .left-master-autohide.detail{
+        width:100%;
+    }
+
+    .left-master-autohide.master{
+        position: absolute;
+        left: 0;
+        width: 250px;
+        left:-245px;
+    }
+
+    .left-master-autohide-visible{
+         left:0 !important;
+    }
+
+    .right-master-autohide.detail{
+        width:100%;
+    }
+
+    .right-master-autohide.master{
+        position: absolute;
+        right: 0;
+        width: 250px;
+        right:-245px;
+    }
+
+    .right-master-autohide-visible{
+        right:0 !important;
+    }
+}
+
+@media (min-width:480px){
+    .pushSlides{
+        margin-left: 0% !important;
+    }
+    .detail{
+        /*padding-top: 10px;*/
+    }
+
+    .padding-top-visible-min-sm{
+        padding-top:10px;
+    }
+
+    .col{
+        /*min-height:100vh;*/
+    }
+
+    .slide-header{
+        margin-bottom: 10px;
+        padding: 0 10px;
+    }
+
+    table.iostyle tr.active{
+        background-color:#333;
+        background: -webkit-linear-gradient(rgb(66, 66, 66), rgb(36, 36, 36)); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(rgb(66, 66, 66), rgb(36, 36, 36)); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(rgb(66, 66, 66), rgb(36, 36, 36)); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(rgb(66, 66, 66), rgb(36, 36, 36)); /* Standard syntax */
+        color:white;
+    }
+
+
+}
+
+@media (max-width:479px){
+    .visible-mobile{
+        display:block;
+    }
+
+    .no-padding-mobile{
+        padding:0 !important;
+    }
+
+    .tabs .col, .pushSlides .col{
+        padding:5px !important;
+        width:100%;
+    }
+
+    .tab.active{
+        display:block;
+    }
+
+    .tab{
+        display:none;
+        width:100% !important;
+    }
+
+    .pushSlides{
+        width: 1000%;
+    }
+
+    .pushSlide{
+        width:10% !important;
+        float:left;
+        opacity:0;
+    }
+
+    .pushSlide.active{
+        opacity:1;
+    }
+
+    .same-height{
+        height:initial !important;
+    }
+
+    .sidebar .col-inner{
+        border:none !important;
+    }
+}
